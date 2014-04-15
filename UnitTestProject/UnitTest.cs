@@ -15,7 +15,7 @@ namespace UnitTestProject
         private IService service;
 
         [TestMethod]
-        public void TestGetAll()
+        public void TestGetAllBasicBinding()
         {
             address = new EndpointAddress("http://localhost:63722/Service.svc");
             binding = new BasicHttpBinding();
